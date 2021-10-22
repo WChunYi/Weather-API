@@ -1,0 +1,130 @@
+h1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0;
+  padding-bottom: 30px;
+  font-size: 36px;
+  color: #05193f;
+}
+
+h1 span {
+  cursor: pointer;
+}
+
+.area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  border-bottom: 5px solid #05193f;
+  text-shadow: 1px 1px 2px #160d64;
+  border-radius: 10px;
+  border-style: outset;
+}
+
+.area li {
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.area li:hover {
+  color: #1c0ac4;
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.area li:active {
+  color: white;
+}
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: calc(100vh - 226.6px);
+}
+
+.row .card {
+  width: 250px;
+  height: 350px;
+  padding: 10px;
+  margin-bottom: 30px;
+  border: 5px solid #05193f;
+  text-shadow: 1px 1px 2px #140c57;
+  border-radius: 10px;
+  border-style: outset;
+  background: -webkit-gradient(linear, left top, left bottom, from(#0966b3), to(rgba(172, 197, 218, 0.2)));
+  background: linear-gradient(#0966b3, rgba(172, 197, 218, 0.2));
+  opacity: 0.8;
+  color: white;
+  -webkit-transition-duration: 0.8s;
+          transition-duration: 0.8s;
+  position: relative;
+}
+
+.row .card img {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.row .card h2 {
+  padding-bottom: 50px;
+}
+
+.row .card ul {
+  margin: 0;
+  padding: 10px;
+}
+
+.row .card li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.row .card li p {
+  margin: 0;
+}
+
+.row .card:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(172, 197, 218, 0.2)), to(#0966b3));
+  background: linear-gradient(rgba(172, 197, 218, 0.2), #0966b3);
+  opacity: 1;
+}
+
+.row .card:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+footer {
+  background-color: #1b3f83;
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+footer .container {
+  padding: 10px;
+}
+/*# sourceMappingURL=天氣卡片.css.map */
